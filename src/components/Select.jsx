@@ -1,6 +1,6 @@
 import React from 'react'
 import { useId } from 'react'
-const Slelect = ({
+const Select = ({
   options,
   label,
   className,
@@ -28,4 +28,4 @@ const Slelect = ({
   )
 }
 
-export default (React.forwardRef (Slelect))
+export default (React.forwardRef (Select))
